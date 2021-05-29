@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    /* box-sizing: border-box; */
+    font-family: Arvo;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    height:100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 0 10vw 8vw;
+    text-align: center;
+    border-radius: 25px;
+    width: 35vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 17px 17px 79px -12px;
+}
+
+h1 {
+    font-size: 6vw;
+    color: #201ccc;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.7vw;
+    color: hsl(0, 0%, 27%); 
+    font-weight: 400;
+}
+
+svg {
+    width: 1.5vw;
+    color: rgb(190, 190, 190);
+}
+
+.search {
+    display: flex;
+    border: 2px solid rgb(211, 211, 211);
+    padding: 1vw;
+    margin-top: 4rem;
+    border-radius: 35px;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2vw;
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: #201ccc;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding: 0.5vw 3vw;
+    border-radius: 25px;
+    margin-top: 3rem;
+    cursor: pointer;
+}
